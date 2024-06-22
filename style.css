@@ -1,0 +1,56 @@
+
+        /* body {
+            padding: 20px;
+            background-color: #f7f4f4;
+
+        }
+        .form-container {
+            
+            margin-bottom: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            
+        }
+        .table-container {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+     */
+
+
+     body {
+        padding: 20px;
+        background-color: #f7f7f7;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .form-container {
+        margin-bottom: 20px;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 1000px; /* Set a max-width for the form container */
+        width: 100%; /* Ensure it takes up full width up to the max-width */
+    }
+    
+    .form-container .form-group {
+        margin-bottom: 15px; /* Adjust the spacing between form groups */
+    }
+    
+    .table-container {
+        background: white;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 1000px; /* Set a max-width for the table container */
+        width: 100%; /* Ensure it takes up full width up to the max-width */
+        margin-top: 20px;
+        
+        
+    }
+    
